@@ -1,6 +1,8 @@
 # Ignore the heavy portable environment and rendered videos
 portable_env/
 **/media/
+**/__pycache__/
+.idea/
 temp/
 *.zip
 *.mp4
