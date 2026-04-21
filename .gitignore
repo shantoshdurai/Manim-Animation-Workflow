@@ -1,0 +1,6 @@
+# Ignore the heavy portable environment and rendered videos
+portable_env/
+**/media/
+temp/
+*.zip
+*.mp4
