@@ -39,7 +39,7 @@ if [ ! -d "$ENV_DIR/tinytex" ]; then
     echo "Downloading and installing self-contained TinyTeX (LaTeX)..."
     export TINYTEX_DIR="$ENV_DIR/tinytex"
     mkdir -p "$TINYTEX_DIR"
-    curl -sL "https://tinytex.yihui.org/install-bin-unix.sh" | sh -s -- --no-path
+    curl -sL "https://tinytex.yihui.org/install-bin-unix.sh" | sh
 else
     echo "TinyTeX directory already present."
 fi
