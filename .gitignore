@@ -1,6 +1,7 @@
 # Ignore the heavy portable environment and rendered videos
 portable_env/
 **/media/
+rendered_animations/
 **/__pycache__/
 .idea/
 temp/
